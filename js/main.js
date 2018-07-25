@@ -1,5 +1,5 @@
 /* ===================================================================
- * Glint - Main JS
+ *  edufox- Main JS
  *
  * ------------------------------------------------------------------- */
 
@@ -215,9 +215,9 @@
             infinite: true,
             slidesToShow: 6,
             slidesToScroll: 2,
-            //autoplay: true,
+            autoplay: true,
             pauseOnFocus: false,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 1800,
             responsive: [
                 {
                     breakpoint: 1200,
@@ -253,11 +253,12 @@
             arrows: true,
             dots: false,
             infinite: true,
-            slidesToShow: 1,
+            slidesToShow:1,
             slidesToScroll: 1,
             adaptiveHeight: true,
             pauseOnFocus: false,
-            autoplaySpeed: 1500,
+            autoplay:true,
+            autoplaySpeed: 2000,
             responsive: [
                 {
                     breakpoint: 900,
@@ -275,7 +276,34 @@
                 }
             ]
         });
-    
+       
+        $('.cards').slick({
+            arrows: false,
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            adaptiveHeight: true,
+            pauseOnFocus: false,
+            autoplay:true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 900,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        arrows: false,
+                        dots: true
+                    }
+                }
+            ]
+        });
     };
 
    /* Smooth Scrolling

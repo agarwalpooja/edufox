@@ -1,7 +1,7 @@
 /* =================================================================== 
  *
- *  Glint v1.0 Main Stylesheet
- *  11-20-2017
+ *  EduFox v1.0 Main Stylesheet
+ *  
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #39b54a;
+    color: #d35a14;
 }
 
 a:hover, a:active {
@@ -367,7 +367,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #39b54a;
+    background: #d35a14;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #39b54a;
+    color: #d35a14;
 }
 
 dd {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #39b54a;
+    background: #d35a14;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #39b54a;
+    background-color: #d35a14;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #39b54a;
+    -webkit-text-fill-color: #d35a14;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #d35a14;
+    border-color: #d35a14;
     color: #FFFFFF;
 }
 
@@ -872,8 +872,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #39b54a;
-    color: #39b54a;
+    border: 0.2rem solid #d35a14;
+    color: #d35a14;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1101,7 +1101,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #39b54a;
+    color: #d35a14;
 }
 
 .stats-tabs li a em {
@@ -1246,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #39b54a;
+    color: #d35a14;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1420,7 +1420,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #39b54a;
+    background: #d35a14;
 }
 
 
@@ -1431,9 +1431,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-header {
     width: 100%;
-    height: 96px;
-    background-color: transparent;
-    position: absolute;
+    height: 70px;
+    background-color: black;
+    position: fixed;
     top: 0;
     z-index: 500;
 }
@@ -1453,6 +1453,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 501;
+    
 }
 
 .header-logo a {
@@ -1514,7 +1515,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #39b54a;
+    color: #d35a14;
 }
 
 .header-nav p {
@@ -1644,7 +1645,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-menu-toggle {
     position: fixed;
     right: 38px;
-    top: 24px;
+    top: 2%;
     height: 42px;
     width: 42px;
     line-height: 42px;
@@ -1652,7 +1653,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #39b54a;
+    color: #d35a14;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1860,8 +1861,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #39b54a;
-    border-right: 2px solid #39b54a;
+    border-bottom: 2px solid #d35a14;
+    border-right: 2px solid #d35a14;
     content: '';
     display: block;
     height: 8px;
@@ -1885,7 +1886,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #39b54a;
+    background-color: #d35a14;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1945,7 +1946,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #39b54a;
+    color: #d35a14;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2201,7 +2202,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    background-color: #db611b;
     color: #010507;
     position: relative;
 }
@@ -2396,11 +2397,11 @@ html.no-csstransitions .home-content__main {
     padding-right: 50px;
 
 }
-
+/* 
 .services-list .service-item1 {
     padding-right: 50px;
     width: 100%;
-}
+} */
 
 
 .services-list .service-item:nth-child(2n+2) {
@@ -2413,7 +2414,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #39b54a;
+    color: #d35a14;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2559,11 +2560,12 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials {
     margin: 0 10%;
+    font-family: 'Lato', sans-serif";
 }
 
 .clients-testimonials .testimonials p {
     font-family: "lora-regular", serif;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.8;
     color: #555555;
     margin-bottom: 6rem;
@@ -2698,19 +2700,20 @@ html.no-csstransitions .home-content__main {
 
 
 /* team */
-img {
+.card img {
 	display: block;
 	border: 0;
 	width: 100%;
-	height: auto;
+	height: 50%;
 }
 
 
 .card {
-	background: white;
+	background: whitesmoke;
     margin-bottom: 2em;	
     padding: 20px;
-    margin: 10px;
+    margin: 40px;
+    flex: 1;
 }
 
 .card a {
@@ -2737,7 +2740,17 @@ img {
 }
 
 /* Flexbox stuff */
-
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ .card {
+     flex: 0 1 24%;
+ }
+ 
+ 
 @media screen and (min-width: 40em) {
     .cards {
         display: flex;
@@ -2806,7 +2819,7 @@ img {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #39b54a;
+    background: #d35a14;
 }
 
 .s-contact .form-field label::after {
@@ -2817,14 +2830,14 @@ img {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #39b54a;
+    border-right: 5px solid #d35a14;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #39b54a;
+    background-color: #d35a14;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -2851,7 +2864,7 @@ img {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: #d35a14;
 }
 
 .contact-content input[type="email"],
@@ -2878,7 +2891,7 @@ img {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #39b54a;
+    border-bottom: 1px solid #d35a14;
 }
 
 .contact-content button,
@@ -2969,7 +2982,7 @@ img {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #39b54a;
+    color: #d35a14;
 }
 
 .contact-social li:last-child {
@@ -2992,7 +3005,7 @@ img {
 }
 
 .message-success {
-    color: #39b54a;
+    color: #d35a14;
 }
 
 .message-warning i, .message-success i {
@@ -3184,7 +3197,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #39b54a;
+    color: #d35a14;
 }
 
 footer .row {
@@ -3276,8 +3289,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #d35a14;
+    border-color: #d35a14;
     padding: 0 20px;
 }
 

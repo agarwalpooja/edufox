@@ -85,11 +85,56 @@ body {
     padding: 0;
 }
 
-
+time.icon
+{
+    float: right;
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 8em;
+  background-color: #fff;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+}
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color:orangered;
+  border-bottom: 1px dashed #f37302;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+time.icon em
+{
+  position: absolute;
+  bottom: 0.1em;
+  color: #fd9f1b;
+}
+time.icon span
+{
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
 /* ------------------------------------------------------------------- 
  * ## links
  * ------------------------------------------------------------------- */
-a {
+
+ a {
     color: #0087cc;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -1813,7 +1858,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__main {
-    padding-top: 24rem;
+    padding-top: 12rem;
     position: relative;
 }
 
@@ -1941,8 +1986,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 33px;
     height: 33px;
     line-height: calc(33px - 4px);
-    border: 2px solid #FFFFFF;
-    border-radius: 50%;
+    /* border: 2px solid #FFFFFF;
+    border-radius: 50%; */
 }
 
 .home-social span {
@@ -2243,7 +2288,7 @@ html.no-csstransitions .home-content__main {
     font-family: "montserrat-bold", sans-serif;
     font-size: 8.4rem;
     line-height: 1;
-    color: #FFFFFF;
+    color: orangered;
     position: relative;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2414,7 +2459,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #d35a14;
+    color: #131212;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2434,6 +2479,7 @@ html.no-csstransitions .home-content__main {
     .services-list .service-item:nth-child(2n+2) {
         padding-left: 30px;
     }
+  
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2770,7 +2816,42 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-  
+  /* agenda */
+  .agenda { 
+    border-collapse: collapse;
+    margin:2% 10%;
+    padding: 2%;
+    border-spacing: 0;
+    width: 80%;
+    border: 2px solid #ddd;
+   }
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+
+/* Events */
+.agenda .agenda-events {  } 
+.agenda .agenda-events .agenda-event {  } 
+
+@media (max-width: 767px) {
+    
+}
 
 /* ===================================================================
  * # contact 
@@ -2845,7 +2926,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-content {
-    max-width: 1000px;
+    max-width: 500px;
     background-color: rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 0.4);
     padding-top: 6rem;
@@ -2867,73 +2948,14 @@ html.no-csstransitions .home-content__main {
     color: #d35a14;
 }
 
-.contact-content input[type="email"],
-.contact-content input[type="number"],
-.contact-content input[type="search"],
-.contact-content input[type="text"],
-.contact-content input[type="tel"],
-.contact-content input[type="url"],
-.contact-content input[type="password"],
-.contact-content textarea,
-.contact-content select {
-    color: rgba(255, 255, 255, 0.6);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    margin-bottom: .9rem;
-}
 
-.contact-content input[type="email"]:focus,
-.contact-content input[type="number"]:focus,
-.contact-content input[type="search"]:focus,
-.contact-content input[type="text"]:focus,
-.contact-content input[type="tel"]:focus,
-.contact-content input[type="url"]:focus,
-.contact-content input[type="password"]:focus,
-.contact-content textarea:focus,
-.contact-content select:focus {
-    color: #FFFFFF;
-    border-bottom: 1px solid #d35a14;
-}
-
-.contact-content button,
-.contact-content .btn {
-    margin-top: 3.6rem;
-}
-.contact-content input::-webkit-input-placeholder,
-.contact-content select::-webkit-input-placeholder,
-.contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
-}
-
-.contact-content input:-moz-placeholder,
-.contact-content select:-moz-placeholder,
-.contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
-}
-
-.contact-content input::-moz-placeholder,
-.contact-content select::-moz-placeholder,
-.contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
-}
-
-.contact-content input:-ms-input-placeholder,
-.contact-content select:-ms-input-placeholder,
-.contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
-}
-
-.contact-content input.placeholder,
-.contact-content select.placeholder,
-.contact-content textarea.placeholder {
-    color: #4f4f4f !important;
-}
 .contact-primary, .contact-secondary {
-    float: left;
+    /* float: center; */
     padding: 0 5rem;
 }
 
 .contact-primary {
-    width: 65%;
+    width: 100%;
 }
 
 .contact-primary #contactForm {

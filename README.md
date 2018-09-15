@@ -1,1 +1,1 @@
-# hactoberfest2k18
+edufox a static website template design
